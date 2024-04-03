@@ -94,7 +94,7 @@ with open(outputDir + "/" + boysOutputFile, "w") as outfile:
     for result in boysResults:
         outfile.write(result)
 
-with open(outputDir + "/results/" + girlsOutputFile, "w") as outfile:
+with open(outputDir + "/" + girlsOutputFile, "w") as outfile:
     print("Outputing Yesterday's Girls Scores")
     outfile.write(generateOutputHeader("Girls", yesterday))
 
